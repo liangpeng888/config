@@ -9,6 +9,15 @@ package com.imooc.model;
 public class Test {
 
     private String id;
+    private String dev;
+
+    public String getDev() {
+        return dev;
+    }
+
+    public void setDev(String dev) {
+        this.dev = dev;
+    }
 
     public String getId() {
         return id;
